@@ -1,6 +1,12 @@
-# Django Testing Framework
+# PyTest Django Fullsatck
 
-### SETUP
+## Content
+
+- Testing Django from SQL Schema all the way to E2E Browser testing.
+- First part involves working through the Django docs.
+- We then move on to creating our PyTest Django Fullstack framework, combining an ebook with videos.
+
+## SETUP
 
 - ### cd TEST_SUITE_DJANGO.
 - ### creater virtual env `python -m venv venv`.
@@ -27,7 +33,7 @@ DJANGO_SETTINGS_MODULE = core.settings where core is the base app initially crea
 - ### rich and pyboxen for fancy console output used in orm.
 - ### requests for order app.
 
-### Tests
+## Tests
 
 - ### (Windows) You can also get PyTest to run unittests in dDjango apps `python -m pytest .\ ` where .\ is the root of the project or you can use ` python -m pytest -vs .\posts` for a particular app. 
 
@@ -36,6 +42,7 @@ python -m pytest -vs .\filemanager\tests_filemanager -vs
 python -m pytest -vs .\ecommerce\tests_ecommerce -vs
 python -m pytest -vs .\catalog\tests_catalog -vs
 python -m pytest -vs .\accounts\tests_accounts -vs
+
 ## REFERENCES
 
 - ### Pybites - https://www.youtube.com/watch?v=L5jWFU2sVXQ for help with setting up PyTest tests for Django. 
