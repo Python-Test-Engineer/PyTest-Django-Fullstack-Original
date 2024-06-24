@@ -1,0 +1,20 @@
+VS
+
+python -m venv venv
+
+.\venv\Scripts\activate
+
+pip freeze > requirements.txt
+
+python -m pip install -r requirements.txt
+
+GIT
+
+git rm -r --cached .
+
+git remote remove origin
+
+git remote add origin https://github.com/iwswordpress/drl-python-test.git
+
+git push origin --delete <BRANCH>
+
