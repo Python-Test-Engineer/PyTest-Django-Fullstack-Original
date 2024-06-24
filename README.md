@@ -36,13 +36,13 @@ DJANGO_SETTINGS_MODULE = core.settings where core is the base app initially crea
 ## Tests
  (Windows) You can also get PyTest to run unittests in Django apps -
 - `python -m pytest .\ ` where .\ is the root of the project or you can use 
-- ` python -m pytest -vs .\posts` for a particular app. 
+- `python -m pytest -vs .\posts` for a particular app. 
 
-- python -m pytest -vs .\posts\tests_posts -vs
-- python -m pytest -vs .\filemanager\tests_filemanager -vs
-- python -m pytest -vs .\ecommerce\tests_ecommerce -vs
-- python -m pytest -vs .\catalog\tests_catalog -vs
-- python -m pytest -vs .\accounts\tests_accounts -vs
+- `python -m pytest -vs .\posts\tests_posts -vs`
+- `python -m pytest -vs .\filemanager\tests_filemanager -vs`
+- `python -m pytest -vs .\ecommerce\tests_ecommerce -vs`
+- `python -m pytest -vs .\catalog\tests_catalog -vs`
+- `python -m pytest -vs .\accounts\tests_accounts -vs`
 
 ## REFERENCES
 
